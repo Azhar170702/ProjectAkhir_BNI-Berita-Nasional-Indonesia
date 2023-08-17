@@ -1,0 +1,41 @@
+#bg-login {
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+			background-image: linear-gradient(to right, #f000, #6af2f0);
+		}
+
+		.box-login {
+			width: 300px;
+			min-height: 200px;
+			background-color: white;
+			padding: 15px;
+			box-sizing: border-box;
+		}
+		.box-login h2 {
+			padding: 0;
+			margin: 0;
+			font-size: 40px;
+			font-family: 'Lobster', sans-serif;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		/*posisi username, password*/
+		.input-control {
+			width: 200px;
+			padding: 5px;
+			color: #686868;
+			margin-bottom: 10px;
+			margin-left: 35px;
+			box-sizing: border-box;
+		}
+		/*tulisan login*/
+		.btm {
+			width: 70px;
+			padding: 5px;
+			background-color: #2FAAFF;
+			color: #fff;
+			margin-left: 100px;
+			border: 0px solid;
+		}
